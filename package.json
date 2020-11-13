@@ -25,11 +25,12 @@
     "react-user-profile": "^1.0.3",
     "react-validation": "^3.0.7",
     "rsuite": "^4.8.4",
+    "serve": "^11.3.2",
     "styled-components": "^4.1.2",
     "validator": "^12.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
