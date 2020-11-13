@@ -1,0 +1,30 @@
+.center-search {
+    margin-left: auto;
+    margin-right: auto;
+      width: 100em
+  }
+
+  .Page {
+    height: 100%;
+    background-color: #f0f2f1;
+    width: 100%;
+  }
+
+  .Layout {
+    height: 100%;
+    width: 100%;
+  }
+
+  .Main-Container {
+    padding: 20px 100px;
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  
+  .Content-Container {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
