@@ -2,11 +2,8 @@
 
 ## Run frontend
 
-    $ git clone 
-    $ cd frondend
-    $ npm install
-    $ npm start
- 
+    $ git clone https://github.com/Clogogo/Booking-App-Frontend.git
+   
 
 ## Project setup
 
