@@ -19,6 +19,7 @@ target/
 *.iml
 *.ipr
 
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -73,6 +74,14 @@ gradle-app.setting
 out/
 .idea/
 .idea_modules/
+
+
+
+##############################
+## Developemt
+##############################
+package-lock.json
+
 
 
 ##############################
