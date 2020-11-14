@@ -1,4 +1,5 @@
-![Build Status](https://travis-ci.com/Clogogo/Booking-App-Frontend.svg?branch=Staging)
+[![Build Status](https://travis-ci.com/Clogogo/Booking-App-Frontend.svg?branch=main)](https://travis-ci.com/github/Clogogo/Booking-App-Frontend)
+                                                                                      <br />
 
 ## Run frontend
 
