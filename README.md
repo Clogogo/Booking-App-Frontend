@@ -1,4 +1,4 @@
-
+https://travis-ci.com/Clogogo/Booking-App-Frontend.svg?branch=Staging
 
 ## Run frontend
 
