@@ -4,12 +4,6 @@
       width: 100em
   }
 
-  .Page {
-    height: 100%;
-    background-color: #f0f2f1;
-    width: 100%;
-  }
-
   .Layout {
     height: 100%;
     width: 100%;
@@ -22,9 +16,7 @@
     display: block;
   }
   
-  .Content-Container {
+.Content-Container {
     height: 100%;
     width: 100%;
-  }
-  
-  
+}

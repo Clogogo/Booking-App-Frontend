@@ -51,7 +51,7 @@ export default class Profile extends Component {
                 </h1>
               </header>
             </Jumbotron>
-            <div className>
+            <div>
               <div className="hero-container">
                 <Accordion>
                   <Card.Header>
