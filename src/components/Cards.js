@@ -2,6 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
+
 function Cards() {
   return (
     <div className='cards'>
@@ -10,8 +11,8 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              // src='https://img.traveltriangle.com/blog/wp-content/uploads/2019/01/cover23.jpeg'
-              src='public/images/img-1.jpg'
+               // src='https://img.traveltriangle.com/blog/wp-content/uploads/2019/01/cover23.jpeg'
+              src='./images/img-1.jpg'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
               label='Adventure'
               path='/services'
