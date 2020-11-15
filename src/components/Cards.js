@@ -11,11 +11,10 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-               // src='https://img.traveltriangle.com/blog/wp-content/uploads/2019/01/cover23.jpeg'
-              src='./images/img-1.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+                src='https://img.traveltriangle.com/blog/wp-content/uploads/2019/01/cover23.jpeg'
+                text='Explore the hidden waterfall of Estonia'
+                label='Adventure'
+                path='/services'
             />
             <CardItem
               src='images/img-2.jpg'
