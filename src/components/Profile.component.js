@@ -3,10 +3,6 @@ import { Redirect } from "react-router-dom";
 import AuthService from "../services/auth.service";
 
 import {
-  ListGroup,
-  Tab,
-  Row,
-  Col,
   Jumbotron,
   Accordion,
   Card,
@@ -41,7 +37,7 @@ export default class Profile extends Component {
     return (
       <>
       
-        {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
+         {/*<img src="/videos/video-2.mp4" autoPlay loop muted />*/}
         {this.state.userReady ? (
           <div>
             <Jumbotron>
@@ -52,8 +48,10 @@ export default class Profile extends Component {
               </header>
             </Jumbotron>
             <div>
-              <div className="hero-container">
+              <div className="cards__container">
+
                 <Accordion>
+                  <div className="container">
                   <Card.Header>
                     <Card.Header>
                       <Accordion.Toggle as={Button} variant="link" eventKey="0">
@@ -61,82 +59,58 @@ export default class Profile extends Component {
                       </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
-                      <Card.Body>Hello! I'm the body</Card.Body>
+                      <div className="cards__item__info"><Card.Body>{currentUser.id}</Card.Body></div>
                     </Accordion.Collapse>
                   </Card.Header>
                   <Card.Header>
                     <Card.Header>
                       <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                        Click me!
+                        User Name
                       </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
-                      <Card.Body>Hello! I'm another body</Card.Body>
+                      <Card.Body>{currentUser.username}</Card.Body>
                     </Accordion.Collapse>
                   </Card.Header>
+                    <Card.Header>
+                      <Card.Header>
+                        <Accordion.Toggle as={Button} variant="link" eventKey="2">
+                          Email Address
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="2">
+                        <Card.Body>{currentUser.email}</Card.Body>
+                      </Accordion.Collapse>
+                    </Card.Header>
+                    <Card.Header>
+                      <Card.Header>
+                        <Accordion.Toggle as={Button} variant="link" eventKey="3">
+                          Roles
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="3">
+                        <Card.Body>{currentUser.roles}</Card.Body>
+                      </Accordion.Collapse>
+                    </Card.Header>
+                    <Card.Header>
+                      <Card.Header>
+                        <Accordion.Toggle as={Button} variant="link" eventKey="4">
+                          Token
+                        </Accordion.Toggle>
+                      </Card.Header>
+                      <Accordion.Collapse eventKey="4">
+                        <Card.Body><p>
+                          <strong>Token:</strong>{" "}
+                          {currentUser.accessToken.substring(0, 5)} ...{" "}
+                          {currentUser.accessToken.substr(
+                              currentUser.accessToken.length - 5
+                          )}
+                        </p></Card.Body>
+                      </Accordion.Collapse>
+                    </Card.Header>
+                  </div>
                 </Accordion>
               </div>
-              <Tab.Container
-                id="list-group-tabs-example"
-                defaultActiveKey="#link1"
-              >
-                <Row>
-                  <Col sm={4}>
-                    <ListGroup>
-                      <ListGroup.Item action href="#link1">
-                        User ID
-                      </ListGroup.Item>
-                      <ListGroup.Item action href="#link2">
-                        Email Address
-                      </ListGroup.Item>
-
-                      <ListGroup.Item action href="#link3">
-                        Authorities
-                      </ListGroup.Item>
-
-                      <ListGroup.Item action href="#link4">
-                        Token
-                      </ListGroup.Item>
-                    </ListGroup>
-                  </Col>
-                  <Col sm={8}>
-                    <Tab.Content>
-                      <Tab.Pane eventKey="#link1">
-                        <p>
-                          <li>
-                            <strong>Profile User id = </strong> {currentUser.id}
-                          </li>
-                          <strong>Profile User id = </strong>{" "}
-                          {currentUser.username}
-                        </p>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="#link2">
-                        <p>
-                          <strong>Email:</strong> {currentUser.email}
-                        </p>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="#link3">
-                        <p>
-                          <strong>Authorities:</strong>{" "}
-                          {currentUser.roles &&
-                            currentUser.roles.map((role, index) => (
-                              <li key={index}>{role}</li>
-                            ))}
-                        </p>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="#link4">
-                        <p>
-                          <strong>Token:</strong>{" "}
-                          {currentUser.accessToken.substring(0, 20)} ...{" "}
-                          {currentUser.accessToken.substr(
-                            currentUser.accessToken.length - 20
-                          )}
-                        </p>
-                      </Tab.Pane>
-                    </Tab.Content>
-                  </Col>
-                </Row>
-              </Tab.Container>
             </div>
           </div>
         ) : null}

@@ -58,11 +58,11 @@ export default class SearchBox extends Component {
                   {placesList.map((p) => {
                     if (this.props.destination === p)
                       return (
-                        <Option key={p} disabled>
+                        <Option key={p} disabled value={p}>
                           {p}
                         </Option>
                       );
-                    else return <Option key={p}>{p}</Option>;
+                    else return <Option key={p} value={p}>{p}</Option>;
                   })}
                 </Select>
               </Col>
@@ -86,11 +86,11 @@ export default class SearchBox extends Component {
                   {placesList.map((p) => {
                     if (this.props.origin === p)
                       return (
-                        <Option key={p} disabled>
+                        <Option key={p} disabled value={p}>
                           {p}
                         </Option>
                       );
-                    else return <Option key={p}>{p}</Option>;
+                    else return <Option key={p} value={p}>{p}</Option>;
                   })}
                 </Select>
               </Col>
