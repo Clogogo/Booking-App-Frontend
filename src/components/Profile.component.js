@@ -8,6 +8,9 @@ import FingerprintIcon from "@material-ui/icons/Fingerprint";
 import EmailIcon from "@material-ui/icons/Email";
 import PersonIcon from "@material-ui/icons/Person";
 import ConfirmationNumberIcon from "@material-ui/icons/ConfirmationNumber";
+import { createElement } from 'react';
+import createAXATestimonialsReact from '@axa-ch/testimonials/lib/index.react';
+
 
 import {
   Container,
@@ -33,10 +36,13 @@ export default class Profile extends Component {
     this.setState({ currentUser: currentUser, userReady: true });
   }
 
+
   render() {
     if (this.state.redirect) {
       return <Redirect to={this.state.redirect} />;
     }
+
+    const AXATestimonialsReact = createAXATestimonialsReact(createElement);
 
     const { currentUser } = this.state;
 
@@ -97,17 +103,46 @@ export default class Profile extends Component {
                 />
               </Col>
               <Col md={6} className="text-center">
-                <h3 className="p-1">Subtitle</h3>
+                <h3 className="p-1">About Me</h3>
                 <p className="p-1">
-                  fermentum iaculis eu non diam phasellus vestibulum lorem sed
-                  risus ultricies tristique nulla aliquet enim tortor at auctor
-                  urna nunc id cursus metus aliquam eleifend mi in nulla posuere
-                  sollicitudin.
+                  When I come to the end of the road,
+                  And the sun has set for me,
+                  I want no rites in a gloom filled room
+                  Why cry for a soul set free?
+                  Miss me a little – but not for long.
+                  And not with your head bowed low.
+                  Remember the love that once we shared.
+                  Miss me, but let me go.
+                  For this is a journey we must all take,
+                  And each must go alone.
+                  It’s all part of the master plan,
+                  A step on the road to home.
+                  When you are lonely and sick at heart,
+                  Go to the friends we know,
+                  Laugh at all the things we used to do.
+                  Miss me, but let me go.
                 </p>
               </Col>
             </Row>
           </Container>
         </Fragment>
+
+
+        <AXATestimonialsReact
+            title="Estonia Entrepreneurship University of Applied Science"
+            subtitle="Software Development"
+            keysenabled
+        >
+          <span>
+2020/21 PR-519 Software development project (Švartsman)
+</span>
+          <div>
+            <span>Project submitted </span>
+            <span className="o-testimonials__author">Lucky Ogogo, Software Development </span>
+          </div>
+        </AXATestimonialsReact>
+
+
         );
       </div>
     );

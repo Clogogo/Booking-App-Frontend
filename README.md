@@ -2,19 +2,22 @@
  ![build succeeded](https://img.shields.io/badge/build-succeeded-brightgreen.svg)
  ![Heroku](https://pyheroku-badge.herokuapp.com/?app=booking-app-frontend&style)
   
-  
-  
-  
-  
-                                                                                      <br />
+                                                           
 ## Description of Project 
-Login 
-Users are able to view More pages 
-, Users can logout
-,React js
-, Applied Travis CI/CD for successful build on production.
+Booking is a web-applications that user can login and check for information and destination to possible visit in Estonia
 
+```
+* Signup 
+* Signed up to login with your credentials
+* Users are able to view More pages 
+* Users can logout
 
+```
+
+## Technology
+    React js
+    Travis CI/CD
+    Heroku 
 ## Run frontend
 
 
