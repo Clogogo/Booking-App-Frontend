@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <div className="Page">
       <div className="center-search">
-        <Search />
+        <Search/>
       </div>
     </div>
   );

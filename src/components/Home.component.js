@@ -36,7 +36,7 @@ export default class Home extends Component {
     return (
       <div>
         <HomePage />
-        <Footer />
+        <Footer/>
       </div>
     );
   }

@@ -1,0 +1,13 @@
+.clips{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10%;
+    position: relative;
+
+    /* justifyContent: "center",
+    flexWrap: "wrap",
+    "& > *": {
+      margin: theme.spacing(0), */
+
+} 
