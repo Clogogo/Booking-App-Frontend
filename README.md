@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.com/Clogogo/Booking-App-Frontend.svg?branch=main)](https://travis-ci.com/github/Clogogo/Booking-App-Frontend)
                                                                                       <br />
 ## Description of Project 
-![alt text](public/images/Screenshot 2020-11-20 at 15.14.50.png)
+![alt text](https://github.com/Clogogo/Booking-App-Frontend/main/public/images/Screenshot 2020-11-20 at 15.14.50.png?raw=true)
 ![alt text](public/images/Screenshot 2020-11-20 at 15.15.12.png)
 ![alt text](public/images/Screenshot 2020-11-20 at 15.15.21.png)
 ![alt text](public/images/Screenshot 2020-11-20 at 15.15.28.png)
