@@ -1,0 +1,71 @@
+
+.each-fade {
+    display: flex;
+    width: 100%;
+}
+  
+.each-fade > div {
+    width: 75%;
+}
+  
+  .each-fade > div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.each-fade p {
+    width: 25%;
+    font-size: 1em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #5e5f5f;
+    color: white;
+}
+
+.background-container {
+    padding: 200px;
+    background-color : #312f2f; 
+}
+
+.slide-container {
+    background-origin: padding-box;
+    border: 10px solid #444641;
+}
+.modal-content {
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 100px;
+  }
+
+.carousel{
+    background-origin: padding-box;
+    border: 10px solid #637946;
+}
+.carousel-caption h3 {
+    /*font-family:    Garamond;*/
+    font-size:      3em;
+    color: #fcfcfc
+    
+}
+
+.carousel-caption p {
+    /* font-family:    Garamond; */
+    font-size:      20px;
+    color: #ffffff
+}
+
+
+/* Description text */
+
+/* Button text */
+.carousel-caption .btn {
+    font-family:    Garamond;
+    font-size:      1em;
+    color:          yellow;
+}
+/* END OF Change the font/size/color of the Slider Titles */
+  

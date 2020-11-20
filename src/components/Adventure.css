@@ -1,0 +1,41 @@
+.background-container {
+    padding-top: 50px;
+    background-color : #312f2f; 
+}
+.center {
+    position: -webkit-sticky; /* Safari */
+  position: relative;
+  bottom: 100px;
+  }
+
+.slide-container{
+    background-origin: padding-box;
+    border: 10px solid #444641;
+}
+
+.carousel{
+    background-origin: padding-box;
+    border: 10px solid #444641;
+}
+.carousel-caption h3 {
+    /*font-family:    Garamond;*/
+    font-size:      3em;
+    color: #fcfcfc
+    
+}
+
+.carousel-caption p {
+    /* font-family:    Garamond; */
+    font-size:      20px;
+    color: #ffffff
+}
+/* Description text */
+
+/* Button text */
+.carousel-caption .btn {
+    font-family:    Garamond;
+    font-size:      1em;
+    color:          yellow;
+}
+/* END OF Change the font/size/color of the Slider Titles */
+  
