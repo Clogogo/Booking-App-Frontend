@@ -8,18 +8,15 @@
   
                                                                                       <br />
 ## Description of Project 
-![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.14.50.png?raw=true)
-![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.15.12.png?raw=true)
-![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.15.21.png?raw=true)
-![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.15.28.png?raw=true)
-![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.16.04.png?raw=true)
-![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.16.12.png?raw=true)
-![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.16.19.png?raw=true)
-![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.16.27.png?raw=true)
-![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.16.35.png?raw=true)
+Login 
+Users are able to view More pages 
+, Users can logout
+,React js
+, Applied Travis CI/CD for successful build on production.
+
 
 ## Run frontend
-Applied pages CI/CD 
+
 
     $ git clone https://github.com/Clogogo/Booking-App-Frontend.git
    
@@ -43,9 +40,18 @@ npm start
 # or
 yarn start
 
-The page will reload if you make edits.
+Please Before Login clone Backend API (https://github.com/Clogogo/Booking-App-Java-API) and run
 ```
 #### Login
 You can create user accounts by signing up 
 explore pages
+![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.14.50.png?raw=true)
+![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.15.12.png?raw=true)
+![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.15.21.png?raw=true)
+![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.15.28.png?raw=true)
+![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.16.04.png?raw=true)
+![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.16.12.png?raw=true)
+![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.16.19.png?raw=true)
+![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.16.27.png?raw=true)
+![alt text](https://github.com/Clogogo/Booking-App-Frontend/blob/Staging/public/images/Screenshot%202020-11-20%20at%2015.16.35.png?raw=true)
 
