@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/Clogogo/Booking-App-Frontend.svg?branch=main)](https://travis-ci.com/github/Clogogo/Booking-App-Frontend)
  ![build succeeded](https://img.shields.io/badge/build-succeeded-brightgreen.svg)
- ![Heroku](https://pyheroku-badge.herokuapp.com/?app=booking-app-frontend&style)
+ 
 
 ##Deployment
 ```https://booking-app-frontend.herokuapp.com```
